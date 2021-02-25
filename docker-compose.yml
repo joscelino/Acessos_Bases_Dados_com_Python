@@ -14,9 +14,7 @@ services:
       - D:/SQL/dados_mysql_docker:/var/lib/mysql
     ports:
       - 3305:3306
+
     environment:
-      MYSQL_ROOT_PASSWORD: senha
-      MYSQL_DATABASE: base_de_dados
-      MYSQL_USER: usuario
-      MYSQL_PASSWORD: senha
+      env_file: .env
       TZ: America/Sao_Paulo
