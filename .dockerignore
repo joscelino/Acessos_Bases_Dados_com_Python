@@ -1,8 +1,10 @@
 LICENSE
 logs/
 tests/
+.vscode/
 .env 
 .env.example 
+
 
 # ignore all markdown files (md) beside all README*.md other than README-secret.md
 *.md
